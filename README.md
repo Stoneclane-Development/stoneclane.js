@@ -1,4 +1,4 @@
-![npm install](https://nodei.co/npm/vcodes.js.png?mini=false)<br/>
+![npm install](https://nodei.co/npm/stoneclane.js.png?mini=false)<br/>
 [Do you need my help? Visit our Discord server.](https://stoneclane.xyz/discord)
 
 # Installation
