@@ -1,6 +1,6 @@
 {
   "name": "stoneclane.js",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "It is a module for stoneclane.xyz.",
   "main": "stoneclane.index.js",
   "repository": {
