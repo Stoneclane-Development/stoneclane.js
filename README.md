@@ -71,7 +71,7 @@ dbl.on("ready", (bot) => {
         dbl.stats(guildCount, shardCount, () => console.log("Stats updated on Stoneclane."));
     */
 })
-// => Bot named Allegro successfully finded on Stoneclane.
+// => Bot named GiveAways successfully finded on Stoneclane.
 // => Vote Control: false
 ```
 
@@ -80,14 +80,14 @@ dbl.on("ready", (bot) => {
 dbl.on("vote", ({ user }) => {
     console.log(`${user.username} voted.`)
 })
-// => clqu voted.
+// => JanjyTapYT voted.
 ```
 ```js
 // WITH BOT
 dbl.on("vote", ({ user, bot }) => {
     console.log(`${user.username} voted ${bot.username}`)
 })
-// => clqu voted Allegro.
+// => JanjyTapYT voted GiveAways.
 ```
 
 ---
