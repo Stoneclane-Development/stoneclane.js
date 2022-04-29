@@ -1,0 +1,36 @@
+{
+  "name": "stoneclane.js",
+  "version": "3.0.0",
+  "description": "It is a module for stoneclane.xyz.",
+  "main": "stoneclane.index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stoneclane-List/stoneclane.js.git"
+  },
+  "keywords": [
+    "dbl",
+    "botlist",
+    "stoneclane"
+  ],
+  "authors": [
+    {
+      "name": "Stoneclane Development",
+      "email": "contact@sdevs.org",
+      "url": "https://sdevs.org"
+    },
+    {
+      "name": "JanjyTapYT",
+      "email": "janjytapyt@sdevs.org",
+      "url": "https://janjytapyt.ml"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Stoneclane-List/stoneclane.js/issues"
+  },
+  "homepage": "https://github.com/Stoneclane-List/stoneclane.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "ws": "^8.3.0"
+  }
+}
