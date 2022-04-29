@@ -1,24 +1,24 @@
 ![npm install](https://nodei.co/npm/vcodes.js.png?mini=false)<br/>
-[Do you need my help? Visit our Discord server.](https://vcodes.xyz/discord)
+[Do you need my help? Visit our Discord server.](https://stoneclane.xyz/discord)
 
 # Installation
 ```console
-npm i vcodes.js --save
-yarn add vcodes.js
+npm i stoneclane.js --save
+yarn add stoneclane.js
 ```
 
 
 # Usage
 ```js
-const vCodes = require('./vcodes.index');
-const dbl = new vCodes("vCodes Bot Token");
+const Stoneclane = require('./stoneclane.index');
+const dbl = new Stoneclane("Stoneclane Bot Token");
 dbl.on("ready", (bot) => {
-    console.log(`Bot named ${bot.username} successfully finded on vCodes.`)
-    dbl.checkVote("714451348212678658").then(value => console.log("Vote Control: "+ value))
+    console.log(`Bot named ${bot.username} successfully finded on Stoneclane.`)
+    dbl.checkVote("909486686986178610").then(value => console.log("Vote Control: "+ value))
     /*
         let guildCount = 1234;
         let shardCount = 5;
-        dbl.stats(guildCount, shardCount, () => console.log("Stats updated on vCodes."));
+        dbl.stats(guildCount, shardCount, () => console.log("Stats updated on Stoneclane."));
     */
 })
 /*
@@ -36,42 +36,42 @@ dbl.on("vote", ({ user }) => {
 
 ### Define Module
 ```js
-const vCodes = require('./vcodes.index');
-const dbl = new vCodes("vCodes Bot Token");
+const Stoneclane = require('./stoneclane.index');
+const dbl = new Stoneclane("Stoneclane Bot Token");
 ```
 
 ### Let's add an event to see if it works.
 ```js
 dbl.on("ready", (bot) => {
-    console.log(`Bot named ${bot.username} successfully finded on vCodes.`)
+    console.log(`Bot named ${bot.username} successfully finded on Stoneclane.`)
 })
-// => Bot named Allegro successfully finded on vCodes.
+// => Bot named GiveAways successfully finded on Stoneclane.
 ```
 
 ### Let's update bot data
 ```js
 dbl.on("ready", (bot) => {
-    console.log(`Bot named ${bot.username} successfully finded on vCodes.`)
+    console.log(`Bot named ${bot.username} successfully finded on Stoneclane.`)
     let guildCount = 1234;
     let shardCount = 5;
-    dbl.stats(guildCount, shardCount, () => console.log("Stats updated on vCodes."));
+    dbl.stats(guildCount, shardCount, () => console.log("Stats updated on Stoneclane."));
 })
-// => Bot named Allegro successfully finded on vCodes.
-// => Stats updated on vCodes.
+// => Bot named GiveAways successfully finded on Stoneclane.
+// => Stats updated on Stoneclane.
 ```
 
 ### Let's check if a user has voted.
 ```js
 dbl.on("ready", (bot) => {
-    console.log(`Bot named ${bot.username} successfully finded on vCodes.`)
-    dbl.checkVote("714451348212678658").then(value => console.log("Vote Control: "+ value))
+    console.log(`Bot named ${bot.username} successfully finded on Stoneclane.`)
+    dbl.checkVote("909486686986178610").then(value => console.log("Vote Control: "+ value))
     /*
         let guildCount = 1234;
         let shardCount = 5;
-        dbl.stats(guildCount, shardCount, () => console.log("Stats updated on vCodes."));
+        dbl.stats(guildCount, shardCount, () => console.log("Stats updated on Stoneclane."));
     */
 })
-// => Bot named Allegro successfully finded on vCodes.
+// => Bot named Allegro successfully finded on Stoneclane.
 // => Vote Control: false
 ```
 
@@ -91,4 +91,4 @@ dbl.on("vote", ({ user, bot }) => {
 ```
 
 ---
-<h6 align="center">Developed with ❤️ by Void Development</h6>
+<h6 align="center">Developed with ❤️ by Stoneclane Development</h6>
